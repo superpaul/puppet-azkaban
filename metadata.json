@@ -1,0 +1,15 @@
+{
+  "name": "superpaul-azkaban",
+  "version": "0.1.0",
+  "author": "superpaul",
+  "summary": "Installs and configures Azkaban",
+  "license": "Apache-2.0",
+  "source": "https://github.com/superpaul/puppet-azkaban",
+  "project_page": "https://github.com/superpaul/puppet-azkaban",
+  "issues_url": "https://github.com/superpaul/puppet-azkaban/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
