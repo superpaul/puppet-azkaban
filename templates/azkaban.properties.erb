@@ -1,0 +1,46 @@
+# Azkaban Properties
+# Managed by Puppet. DO NOT EDIT MANUALLY!
+
+# Personalization Settings
+azkaban.name=<%= @azkaban_name %>
+azkaban.label=<%= @azkaban_label %>
+azkaban.color=<%= @azkaban_color %>
+web.resource.dir=<%= @azkaban_web_resource_path %>
+dafault.timezone.id=<%= @default_timezone %>
+
+# UserManager class
+user.manager.class=<%= @user_manager_class %>
+user.manager.xml.file=<%= @user_manager_xml_file %>
+
+# Loader for projects
+executor.global.properties=<%= @executor_global_properties_path %>
+azkaban.project.dir=<%= @azkaban_project_path %>
+
+database.sql.scripts.dir=<%= @db_sql_scripts_dir %>
+database.check.version=<%= @db_check_version %>
+database.auto.update.tables=<%= @db_auto_update_tables %>
+database.type=<%= @db_type %>
+h2.path=<%= @db_h2_path %>
+h2.create.tables=<%= @db_h2_create_tables %>
+
+# Velocity dev mode
+velocity.dev.mode=<%= @velocity_dev_mode %>
+
+# Jetty Server Properties
+jetty.use.ssl=<%= @jetty_ssl_enable %>
+jetty.ssl.port=<%= @jetty_ssl_port %>
+jetty.maxThreads=<%= @jetty_max_threads %>
+jetty.port=<%= @jetty_port %>
+
+# Executor Settings
+executor.maxThreads=<%= @executor_max_threads %>
+executor.port=<%= @executor_port %>
+executor.flow.threads=<%= @executor_flow_threads %>
+
+# Mail Settings
+mail.sender=<%= @mail_sender %>
+mail.host=<%= @mail_host %>
+job.failure.email=<%= @mail_failure_to %>
+job.success.email=<%= @mail_success_to %>
+
+lockdown.create.projects=<%= @lockdown_create_projects %>
